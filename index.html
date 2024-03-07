@@ -9,13 +9,12 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
     integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" >
+    crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
     integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" >
-  <link rel="stylesheet" href="./assets/style.css">
-  <link rel="stylesheet" href="./assets/root.css">
-  <title>THE JULIAN PROJECT</title>
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- <title>THE JULIAN PROJECT</title> -->
 </head>
 <!-- Primary Meta Tags -->
 <title> The Julian Project</title>
@@ -37,36 +36,44 @@
 <meta property="twitter:image" content="https://i.ibb.co/XZxhTy1/tag.png" />
 
 <!-- Meta Tags Generated with https://metatags.io -->
+
 <body>
   <section class="d -none">
-    <div class="image z_40 d_flex" id="preloader">
+    <div class="image z_40 d-flex justify-content-center align-items-center text-center" id="preloader">
       <img id="img" class="first_box bounce  cursor" src="./assets/images/logo.png" alt="logo">
     </div>
 
   </section>
-  <section class="bg_color overflow-hidden  d- none position-relative" id="home">
+  <section class="bg_color overflow-hidden  d -none position-relative" id="home">
 
 
     <div class="nav-box d-flex overflow-hidden align-items-center   ">
       <div class="container  max-w-1140  ">
-        <nav class="d-flex  pt-30 align-items-center justify-content-between">
+        <nav class="d-flex pt-30 pb-30   align-items-center justify-content-between">
           <img class="cursor " src="./assets/images/logo.png" alt="Logo">
           <ul class="d-flex z_10 mb-0 gap-141  align-items-center mobile_view" id="navbar">
 
             <div class="d-flex gap_36 justify-content-center flex-col align-items-center ">
-              <li><a href="#home" class="fw-400 helv_font fs-16 about_us line-25 under_line  ">Home</a></li>
-              <li><a href="#about" class="fw-400  helv_font fs-16 about_us line-25 under_line text-nowrap  ">About
+              <li><a href="#home" class="fw-400 helv_font fs-16 about_us line-25 under_line  "
+                  onclick="openNav()">Home</a></li>
+              <li><a href="#about" class="fw-400  helv_font fs-16 about_us line-25 under_line text-nowrap  "
+                  onclick="openNav()">About
                   Us</a></li>
-              <li><a href="#issue" class="fw-400 helv_font fs-16 about_us line-25   under_line">Issues</a></li>
-              <li><a href="#schol" class="fw-400  helv_font fs-16 about_us line-25 under_line ">Scholarships</a></li>
-              <li><a href="#curric" class="fw-400 helv_font fs-16 about_us line-25  under_line ">Curriculum</a></li>
-              <li><a href="#grants" class="fw-400 helv_font fs-16 about_us line-25  under_line ">Grants</a></li>
-              <li><a href="#donate" class="fw-400 helv_font fs-16 about_us line-25  under_line ">Donate</a></li>
+              <li><a href="#issue" class="fw-400 helv_font fs-16 about_us line-25   under_line"
+                  onclick="openNav()">Issues</a></li>
+              <li><a href="#schol" class="fw-400  helv_font fs-16 about_us line-25 under_line "
+                  onclick="openNav()">Scholarships</a></li>
+              <li><a href="#curric" class="fw-400 helv_font fs-16 about_us line-25  under_line "
+                  onclick="openNav()">Curriculum</a></li>
+              <li><a href="#grants" class="fw-400 helv_font fs-16 about_us line-25  under_line "
+                  onclick="openNav()">Grants</a></li>
+              <li><a href="#donate" class="fw-400 helv_font fs-16 about_us line-25  under_line "
+                  onclick="openNav()">Donate</a></li>
 
             </div>
             <div>
               <li>
-                <button class="d-flex z_10 align-items-center btn_2  gap-15">
+                <button class="d-flex z_10 align-items-center btn_2  gap-15" onclick="openNav()">
                   <h3 class="fw-700 fs-20 line-32 helv_font mb-0 submit_btn">Submit</h3>
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M19 12L13 18M19 12L13 6M19 12L5 12" stroke="url(#paint0_linear_41265_2425)"
@@ -156,12 +163,12 @@
     </div>
     <div class="section1_elips d-none d-lg-block">
       <img src="./assets/svg/section1_elips.svg" alt="section1_elips">
-        
+
     </div>
 
   </section>
   <section class="position-relative z-3 d -none" id="">
-    <div class="container max-w-1140">
+    <div class="container z-3 max-w-1140">
       <div class="d-flex justify-content-center ">
         <div class=" z_20 transition_1">
           <div class="box_1    flex-column border-gradient position-relative ">
@@ -229,7 +236,38 @@
         </div>
       </div>
       <div class="pt_120 d-flex w-948 mx-auto flex-column justify-content-center">
-        <img class="cursor  " src="./assets/images/image1.png" alt="image1">
+        <div class="position-relative">
+
+          <div class="border_vedio">
+            <img class="cursor border_radius  w-100" src="./assets/images/vedio.gif" alt="image1">
+          </div>
+
+          <div class="position_absolute_4">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M20.0125 0C8.94424 0 0 8.97751 0 20.0261C0 28.7475 5.54544 36.1638 13.3416 38.901V21.585C14.2112 21.4581 15.0807 21.3811 16 21.3811V39.642C16.8673 39.821 17.7639 39.9501 18.6584 40V21.585C19.5777 21.7391 20.497 21.943 21.3167 22.2262V40C22.2361 39.9501 23.1305 39.821 24 39.642V23.4272C24.3306 23.6062 24.6906 23.8101 24.9963 24.0412C25.61 24.4514 26.1715 24.9113 26.6833 25.4234V38.901C30.5689 37.546 33.8908 34.9878 36.2683 31.7136C38.6187 28.4144 40 24.3992 40 20.0261C40 8.97751 31.0535 0 20.0125 0ZM28.0125 20.051H12.0125V16.0358C18.1466 16.0358 23.7441 17.0079 28.0125 18.5691V20.051ZM30.6708 14.7057H9.32918V10.7155H30.6708V14.7057Z"
+                fill="url(#paint0_linear_41260_10542)" />
+              <defs>
+                <linearGradient id="paint0_linear_41260_10542" x1="0" y1="0" x2="29.6532" y2="45.2991"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#F4EAD8" />
+                  <stop offset="1" stop-color="#E0B764" />
+                </linearGradient>
+              </defs>
+            </svg>
+
+          </div>
+          <div class="position_absolute_5 z-3">
+            <button class="play_btn d-flex gap-10 align-items-center justify-content-center">
+              <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11.6043 7.14679C12.2422 7.53675 12.2422 8.46325 11.6043 8.85321L1.77158 14.8641C1.10523 15.2714 0.249999 14.7919 0.249999 14.0109L0.25 1.98913C0.25 1.20814 1.10523 0.72858 1.77157 1.13593L11.6043 7.14679Z"
+                  fill="#FCF9F6" />
+              </svg>
+              <h2 class="font-helv mb-0 fw-400 line-25 fs-16 white">Play Video</h2>
+            </button>
+          </div>
+        </div>
 
       </div>
       <div class="d-flex flex-column justify-content-center align-items-center pt-91 text-center ">
@@ -511,16 +549,16 @@
             </div>
           </div>
         </div>
-       <div class=" next_pos d-none d-xl-block">
-        <div class="next-pos d-flex justify-content-center  align-items-center">
-          <svg class="svg-icon"
-            style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;color: #E9CE98; overflow: hidden;"
-            viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M251.069046 983.355077l471.355077-471.355077L251.069046 40.644923A23.809313 23.809313 0 0 1 284.740267 6.973703l488.190687 488.190687a23.809313 23.809313 0 0 1 0 33.67122L284.740267 1017.026297A23.809313 23.809313 0 0 1 251.069046 983.355077z" />
-          </svg>
+        <div class=" next_pos d-none d-xl-block">
+          <div class="next-pos d-flex justify-content-center  align-items-center">
+            <svg class="svg-icon"
+              style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;color: #E9CE98; overflow: hidden;"
+              viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M251.069046 983.355077l471.355077-471.355077L251.069046 40.644923A23.809313 23.809313 0 0 1 284.740267 6.973703l488.190687 488.190687a23.809313 23.809313 0 0 1 0 33.67122L284.740267 1017.026297A23.809313 23.809313 0 0 1 251.069046 983.355077z" />
+            </svg>
+          </div>
         </div>
-       </div>
         <div class=" prev_pos d-none d-xl-block">
           <div class="prev-pos d-flex  justify-content-center     align-items-center">
 
@@ -529,8 +567,8 @@
               viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
               <path d="M688 224 656 192 336 512 336 512 320 528 656 864 688 832 384 528Z" />
             </svg>
-  
-          </div> 
+
+          </div>
         </div>
       </div>
     </div>
@@ -577,7 +615,8 @@
 
           </div>
           <div class="tracking-date fs-24 fw-700 line-38 white helv_font">Step 1</div>
-          <div class="tracking-content fs-16 fw-400 line-25 white pb-3 helv_font">Preliminary Submission<span class="light_white ">The first
+          <div class="tracking-content fs-16 fw-400 line-25 white pb-3 helv_font">Preliminary Submission<span
+              class="light_white ">The first
               step to publishing in The Julian Project is first sending us a preliminary submission which includes
               information about the author, paper abstract, and a few short answer responses about the paper.</span>
           </div>
@@ -637,7 +676,8 @@
             </svg>
           </div>
           <div class="tracking-date fs-24 fw-700 line-38 white helv_font">Step 2</div>
-          <div class="tracking-content fs-16 fw-400 line-25 white pb-3 helv_font">Final Submission<span class="light_white ">The next step to
+          <div class="tracking-content fs-16 fw-400 line-25 white pb-3 helv_font">Final Submission<span
+              class="light_white ">The next step to
               publishing is to submit the final version of your paper and a separate annotated bibliography.</span>
           </div>
         </div>
@@ -696,7 +736,8 @@
             </svg>
           </div>
           <div class="tracking-date fs-24 fw-700 line-38 white helv_font">Step 3</div>
-          <div class="tracking-content fs-16 fw-400 line-25 white pb-3 helv_font">Preliminary Submission<span class="light_white ">The first
+          <div class="tracking-content fs-16 fw-400 line-25 white pb-3 helv_font">Preliminary Submission<span
+              class="light_white ">The first
               step to publishing in The Julian Project is first sending us a preliminary submission which includes
               information about the author, paper abstract, and a few short answer responses about the paper.</span>
           </div>
@@ -756,7 +797,8 @@
             </svg>
           </div>
           <div class="tracking-date fs-24 fw-700 line-38 white helv_font">Step 4</div>
-          <div class="tracking-content fs-16 fw-400 line-25 white pb-3 helv_font">Final Submission<span class="light_white">The next step to
+          <div class="tracking-content fs-16 fw-400 line-25 white pb-3 helv_font">Final Submission<span
+              class="light_white">The next step to
               publishing is to submit the final version of your paper and a separate annotated bibliography.</span>
           </div>
         </div>
@@ -815,7 +857,8 @@
             </svg>
           </div>
           <div class="tracking-date fs-24 fw-700 line-38 white helv_font">Step 5</div>
-          <div class="tracking-content fs-16 fw-400 line-25 white pb-3 helv_font">Preliminary Submission<span class="light_white">The first
+          <div class="tracking-content fs-16 fw-400 line-25 white pb-3 helv_font">Preliminary Submission<span
+              class="light_white">The first
               step to publishing in The Julian Project is first sending us a preliminary submission which includes
               information about the author, paper abstract, and a few short answer responses about the paper.</span>
           </div>
@@ -890,11 +933,28 @@
     <div class="container max-w-1140">
       <div class="row  ">
         <div class="col-lg-5 col-12 mt_130  cursor">
-          <img class="w-100  cursor" src="./assets/images/Graphic.png" alt="Graphic">
+          <div class="d-flex justify-content-center text-center pb_11">
+            <h4 class="mb-0 font-helv max_wid_338 pt-18  fw-400 fs-16 black line-25 ">
+              “We Given Away Number Of 500 Grants Yearly”
+              <span class="font-helv mb-0 fw-700 fs-16 amount_of">
+                Amount Of $250
+              </span>
+            </h4>
+          </div>
+          <img class="w-100  cursor" src="./assets/images/circle_graphic.png " alt="Graphic">
+          <div>
+            <div class=" d-flex justify-content-center mt-24 we_have">
+              <h4 class="mb-0 font-helv max_wid_392   fw-400 fs-12 fst-italic lightblack line-19 ">
+                We have only left 144 Grants, If you are Interested, please apply now for
+                The Julian Project Grants.
+
+              </h4>
+            </div>
+          </div>
         </div>
         <div class="col-lg-7 col-12 mt_130 justify-content-lg-end d-flex">
           <div class="flex-column d-flex">
-            <h3 class="fw-700 fs-48 line-55 the_julian black pt-16  helv_font ">The Julian Grant</h3>
+            <h3 class="fw-700 fs-48 line-55 the_julian black   helv_font ">The Julian Grant</h3>
             <p class="fw-400 fs-16 slider line-25 para_6  helv_font ">To bridge the inequality gap in the humanities,
               The Julian Grant recognizes and supports the remarkable
               achievements of low-income historians. Valued at $250,this esteemed grant aims to honor the resilience and
@@ -1298,7 +1358,8 @@
   <section class="position-relative overflow-hidden d- none" id="schol">
     <div class="container max-w-1140">
       <h2 class="line-55 mt-130 fw-700 fs-48 apply_in helv_font  mb-0">Apply in Under an Hour</h2>
-      <p class="fw-400 fs-16 line-25 lorem_ip slider helv_font  mb-0">Lorem ipsum dolor sit amet consectetur. Sit vel a
+      <p class="fw-400 fs-16 line-25 lorem_ip slider helv_font  mb-0 pt-16">Lorem ipsum dolor sit amet consectetur. Sit
+        vel a
         nunc enim amet phasellus fringilla. Sed vel egestas at cras rutrum nunc massa . Lectus sed vestibulum facilisis
         odio.</p>
       <div class="online_app mt-48">
@@ -1504,7 +1565,7 @@
           </div>
           <div class="box_7 cursor  tab-2" onclick="navtabs('tab7')">
             <div class="d-flex  gap_10  align-items-center justify-content-between">
-              <h4 class="fw-700 fs-16 mb-0 line-25 poli_tical helv_font text-nowrap">Political History</h4>
+              <h4 class="fw-700 fs-16 mb-0 line-25 poli_tical helv_font text-nowrap">Social History</h4>
               <div>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -1525,7 +1586,7 @@
           </div>
           <div class="box_7 cursor tab-2" onclick="navtabs('tab8')">
             <div class="d-flex  gap_10  align-items-center justify-content-between">
-              <h4 class="fw-700 fs-16 mb-0 line-25 poli_tical helv_font text-nowrap">Political History</h4>
+              <h4 class="fw-700 fs-16 mb-0 line-25 poli_tical helv_font text-nowrap">Intellectual History </h4>
 
               <div>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1549,9 +1610,9 @@
         </div>
 
         <div class="  ">
-          <div class="padding_29 tablets" id="tab1">
-            <h5 class="origins_of fw-400 fs-24 line-38 mb-0 helv_font "> <span class="home">Origins of</span> Political
-              Systems
+          <div class="  pt-29 pl-40 tablets" id="tab1">
+            <h5 class="  fw-400 fs-24 line-38 mb-0 white helv_font "> Origins of <span class="origins_of">Political
+                Systems</span>
             </h5>
             <p class="para_12 fw-400 fs-16 mb-0 line-25 pt-16 helv_font ">The origins of political history systems can
               be traced
@@ -1563,9 +1624,9 @@
               decision-making processes. The Roman Republic, with its system of checks and balances, influenced later
               Western political thought.</p>
           </div>
-          <div class="padding_29 tablets" id="tab2">
-            <h5 class="origins_of fw-400 fs-24 line-38 mb-0 helv_font "> <span class="home">Origins of</span> Political
-              Systems
+          <div class=" pt-29 pl-40 tablets" id="tab2">
+            <h5 class="  fw-400 fs-24 line-38 mb-0 helv_font white"> Origins of<span class="origins_of"> Military
+                History</span>
             </h5>
             <p class="para_12 fw-400 fs-16 mb-0 line-25 pt-16 helv_font "> Lorem ipsum dolor sit amet consectetur
               adipisicing elit.
@@ -1575,9 +1636,9 @@
               excepturi voluptates amet sed odio incidunt molestiae ab, repudiandae vel molestias doloribus dicta nihil
               fugit. Aspernatur, suscipit voluptatibus.</p>
           </div>
-          <div class="padding_29 tablets" id="tab3">
-            <h5 class="origins_of fw-400 fs-24 line-38 mb-0 helv_font "> <span class="home">Origins of</span> Political
-              systems
+          <div class=" pt-29 pl-40 tablets" id="tab3">
+            <h5 class="  fw-400 fs-24 line-38 mb-0 helv_font white "> Origins of<span class="origins_of"> Gender
+                History</span>
             </h5>
             <p class="para_12 fw-400 fs-16 mb-0 line-25 pt-16 helv_font "> Lorem ipsum dolor, sit amet consectetur
               adipisicing
@@ -1585,9 +1646,9 @@
               quisquam? Dolores natus aliquid, voluptates odit libero fugit placeat dignissimos iste commodi impedit.
             </p>
           </div>
-          <div class="padding_29 tablets" id="tab4">
-            <h5 class="origins_of fw-400 fs-24 line-38 mb-0 helv_font "> <span class="home">Origins of</span> Political
-              Systems
+          <div class=" pt-29 pl-40  tablets" id="tab4">
+            <h5 class="  fw-400 fs-24 line-38 mb-0 helv_font white">Origins of <span class="origins_of ">Economic
+                History</span>
             </h5>
             <p class="para_12 fw-400 fs-16 mb-0 line-25 pt-16 helv_font "> origins of political history systems can be
               traced
@@ -1599,9 +1660,10 @@
               decision-making processes. The Roman Republic, with its system of checks and balances, influenced later
               Western political thought.</p>
           </div>
-          <div class="padding_29 tablets" id="tab5">
-            <h5 class="origins_of fw-400 fs-24 line-38 mb-0 helv_font "> <span class="home">Origins of</span> Political
-              Systems
+          <div class=" pt-29 pl-40  tablets" id="tab5">
+            <h5 class="  fw-400 fs-24 line-38 mb-0 helv_font white ">Origins of <span class="origins_of"> Environmental
+                History </span>
+
             </h5>
             <p class="para_12 fw-400 fs-16 mb-0 line-25 pt-16 helv_font "> Lorem ipsum dolor sit amet consectetur
               adipisicing elit.
@@ -1609,9 +1671,9 @@
               alias id magnam perferendis! Necessitatibus distinctio nulla quo, consectetur officiis eligendi aut
               similique quae consequuntur doloribus, illo magni.</p>
           </div>
-          <div class="padding_29 tablets" id="tab6">
-            <h5 class="origins_of fw-400 fs-24 line-38 mb-0 helv_font "> <span class="home">Origins of</span> Political
-              Systems
+          <div class=" pt-29 pl-40  tablets" id="tab6">
+            <h5 class="  fw-400 fs-24 line-38 mb-0 helv_font white"> Origins of <span class="origins_of"> Cultural
+                History</span>
             </h5>
             <p class="para_12 fw-400 fs-16 mb-0 line-25 pt-16 helv_font "> Lorem ipsum dolor sit, amet consectetur
               adipisicing
@@ -1620,9 +1682,9 @@
               magni consectetur consequuntur perferendis vel commodi quo accusamus iste harum, reprehenderit ipsum error
               nihil, dignissimos suscipit.</p>
           </div>
-          <div class="padding_29 tablets" id="tab7">
-            <h5 class="origins_of fw-400 fs-24 line-38 mb-0 helv_font "> <span class="home">Origins of</span> Political
-              Systems
+          <div class=" pt-29 pl-40  tablets" id="tab7">
+            <h5 class="  fw-400 fs-24 line-38 mb-0 helv_font white ">Origins of <span class="origins_of"> Social
+                History</span>
             </h5>
             <p class="para_12 fw-400 fs-16 mb-0 line-25 pt-16 helv_font ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis excepturi minima nostrum, alias hic
@@ -1631,9 +1693,10 @@
               nobis, nam culpa?
             </p>
           </div>
-          <div class="padding_29 tablets" id="tab8">
-            <h5 class="origins_of fw-400 fs-24 line-38 mb-0 helv_font "> <span class="home">Origins of</span> Political
-              Systems
+          <div class=" pt-29 pl-40  tablets" id="tab8">
+            <h5 class="  fw-400 fs-24 line-38 mb-0 helv_font white">Origins of <span class="origins_of"> Intellectual
+                History </span>
+
             </h5>
             <p class="para_12 fw-400 fs-16 mb-0 line-25 pt-16 helv_font "> origins of political history systems can be
               traced
@@ -1667,12 +1730,15 @@
         <div class="col-md-6 pt-64">
           <div class="overflow-hidden cursor accordian_1">
             <div class="d-flex justify-content-between align-items-center">
-              <h5 class="mb-0 fs-16 line-24  Helve_font slider helv_font under_line_1 fw-400">Who can submit?</h5>
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M13 7.99609H8V12.9961C8 13.2613 7.89464 13.5157 7.70711 13.7032C7.51957 13.8907 7.26522 13.9961 7 13.9961C6.73478 13.9961 6.48043 13.8907 6.29289 13.7032C6.10536 13.5157 6 13.2613 6 12.9961V7.99609H1C0.734784 7.99609 0.48043 7.89074 0.292893 7.7032C0.105357 7.51566 0 7.26131 0 6.99609C0 6.73088 0.105357 6.47652 0.292893 6.28899C0.48043 6.10145 0.734784 5.99609 1 5.99609H6V0.996094C6 0.730877 6.10536 0.476523 6.29289 0.288987C6.48043 0.10145 6.73478 -0.00390625 7 -0.00390625C7.26522 -0.00390625 7.51957 0.10145 7.70711 0.288987C7.89464 0.476523 8 0.730877 8 0.996094V5.99609H13C13.2652 5.99609 13.5196 6.10145 13.7071 6.28899C13.8946 6.47652 14 6.73088 14 6.99609C14 7.26131 13.8946 7.51566 13.7071 7.7032C13.5196 7.89074 13.2652 7.99609 13 7.99609Z"
-                  fill="black" style="fill:black;fill-opacity:1;" />
-              </svg>
+              <h5 class="mb-0 fs-16 line-24  Helve_font slider helv_font   fw-400">Who can submit?</h5>
+              <div class="plus-sign">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13 7.99609H8V12.9961C8 13.2613 7.89464 13.5157 7.70711 13.7032C7.51957 13.8907 7.26522 13.9961 7 13.9961C6.73478 13.9961 6.48043 13.8907 6.29289 13.7032C6.10536 13.5157 6 13.2613 6 12.9961V7.99609H1C0.734784 7.99609 0.48043 7.89074 0.292893 7.7032C0.105357 7.51566 0 7.26131 0 6.99609C0 6.73088 0.105357 6.47652 0.292893 6.28899C0.48043 6.10145 0.734784 5.99609 1 5.99609H6V0.996094C6 0.730877 6.10536 0.476523 6.29289 0.288987C6.48043 0.10145 6.73478 -0.00390625 7 -0.00390625C7.26522 -0.00390625 7.51957 0.10145 7.70711 0.288987C7.89464 0.476523 8 0.730877 8 0.996094V5.99609H13C13.2652 5.99609 13.5196 6.10145 13.7071 6.28899C13.8946 6.47652 14 6.73088 14 6.99609C14 7.26131 13.8946 7.51566 13.7071 7.7032C13.5196 7.89074 13.2652 7.99609 13 7.99609Z"
+                    fill="black" style="fill:black;fill-opacity:1;" />
+                </svg>
+              </div>
+              <img class="minus-sign" src="./assets/images/minus-3108.svg" alt="minus-3108">
             </div>
             <div class="accordion-para pt-4">
               <p class="mb-0 fs-16 line-24 slider helv_font under_line_1 fw-400">Lorem ipsum dolor sit amet consectetur
@@ -1684,12 +1750,15 @@
           </div>
           <div class="overflow-hidden cursor mt-24-24  accordian_1">
             <div class="d-flex justify-content-between align-items-center">
-              <h5 class="mb-0 fs-16 line-24  Helve_font slider helv_font under_line_1 fw-400">Who can submit?</h5>
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M13 7.99609H8V12.9961C8 13.2613 7.89464 13.5157 7.70711 13.7032C7.51957 13.8907 7.26522 13.9961 7 13.9961C6.73478 13.9961 6.48043 13.8907 6.29289 13.7032C6.10536 13.5157 6 13.2613 6 12.9961V7.99609H1C0.734784 7.99609 0.48043 7.89074 0.292893 7.7032C0.105357 7.51566 0 7.26131 0 6.99609C0 6.73088 0.105357 6.47652 0.292893 6.28899C0.48043 6.10145 0.734784 5.99609 1 5.99609H6V0.996094C6 0.730877 6.10536 0.476523 6.29289 0.288987C6.48043 0.10145 6.73478 -0.00390625 7 -0.00390625C7.26522 -0.00390625 7.51957 0.10145 7.70711 0.288987C7.89464 0.476523 8 0.730877 8 0.996094V5.99609H13C13.2652 5.99609 13.5196 6.10145 13.7071 6.28899C13.8946 6.47652 14 6.73088 14 6.99609C14 7.26131 13.8946 7.51566 13.7071 7.7032C13.5196 7.89074 13.2652 7.99609 13 7.99609Z"
-                  fill="black" style="fill:black;fill-opacity:1;" />
-              </svg>
+              <h5 class="mb-0 fs-16 line-24  Helve_font slider helv_font  fw-400">Who can submit?</h5>
+              <div class="plus-sign">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13 7.99609H8V12.9961C8 13.2613 7.89464 13.5157 7.70711 13.7032C7.51957 13.8907 7.26522 13.9961 7 13.9961C6.73478 13.9961 6.48043 13.8907 6.29289 13.7032C6.10536 13.5157 6 13.2613 6 12.9961V7.99609H1C0.734784 7.99609 0.48043 7.89074 0.292893 7.7032C0.105357 7.51566 0 7.26131 0 6.99609C0 6.73088 0.105357 6.47652 0.292893 6.28899C0.48043 6.10145 0.734784 5.99609 1 5.99609H6V0.996094C6 0.730877 6.10536 0.476523 6.29289 0.288987C6.48043 0.10145 6.73478 -0.00390625 7 -0.00390625C7.26522 -0.00390625 7.51957 0.10145 7.70711 0.288987C7.89464 0.476523 8 0.730877 8 0.996094V5.99609H13C13.2652 5.99609 13.5196 6.10145 13.7071 6.28899C13.8946 6.47652 14 6.73088 14 6.99609C14 7.26131 13.8946 7.51566 13.7071 7.7032C13.5196 7.89074 13.2652 7.99609 13 7.99609Z"
+                    fill="black" style="fill:black;fill-opacity:1;" />
+                </svg>
+              </div>
+              <img class="minus-sign" src="./assets/images/minus-3108.svg" alt="minus-3108">
             </div>
             <div class="accordion-para pt-4">
               <p class="mb-0 fs-16 line-24 slider helv_font  helv_font  fw-400">Lorem ipsum dolor sit amet consectetur
@@ -1700,12 +1769,15 @@
           </div>
           <div class="overflow-hidden  cursor accordian_1">
             <div class="d-flex justify-content-between align-items-center">
-              <h5 class="mb-0 fs-16 line-24  Helve_font slider under_line_1 fw-400">Who can submit?</h5>
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M13 7.99609H8V12.9961C8 13.2613 7.89464 13.5157 7.70711 13.7032C7.51957 13.8907 7.26522 13.9961 7 13.9961C6.73478 13.9961 6.48043 13.8907 6.29289 13.7032C6.10536 13.5157 6 13.2613 6 12.9961V7.99609H1C0.734784 7.99609 0.48043 7.89074 0.292893 7.7032C0.105357 7.51566 0 7.26131 0 6.99609C0 6.73088 0.105357 6.47652 0.292893 6.28899C0.48043 6.10145 0.734784 5.99609 1 5.99609H6V0.996094C6 0.730877 6.10536 0.476523 6.29289 0.288987C6.48043 0.10145 6.73478 -0.00390625 7 -0.00390625C7.26522 -0.00390625 7.51957 0.10145 7.70711 0.288987C7.89464 0.476523 8 0.730877 8 0.996094V5.99609H13C13.2652 5.99609 13.5196 6.10145 13.7071 6.28899C13.8946 6.47652 14 6.73088 14 6.99609C14 7.26131 13.8946 7.51566 13.7071 7.7032C13.5196 7.89074 13.2652 7.99609 13 7.99609Z"
-                  fill="black" style="fill:black;fill-opacity:1;" />
-              </svg>
+              <h5 class="mb-0 fs-16 line-24  Helve_font slider   fw-400">Who can submit?</h5>
+              <div class="plus-sign">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13 7.99609H8V12.9961C8 13.2613 7.89464 13.5157 7.70711 13.7032C7.51957 13.8907 7.26522 13.9961 7 13.9961C6.73478 13.9961 6.48043 13.8907 6.29289 13.7032C6.10536 13.5157 6 13.2613 6 12.9961V7.99609H1C0.734784 7.99609 0.48043 7.89074 0.292893 7.7032C0.105357 7.51566 0 7.26131 0 6.99609C0 6.73088 0.105357 6.47652 0.292893 6.28899C0.48043 6.10145 0.734784 5.99609 1 5.99609H6V0.996094C6 0.730877 6.10536 0.476523 6.29289 0.288987C6.48043 0.10145 6.73478 -0.00390625 7 -0.00390625C7.26522 -0.00390625 7.51957 0.10145 7.70711 0.288987C7.89464 0.476523 8 0.730877 8 0.996094V5.99609H13C13.2652 5.99609 13.5196 6.10145 13.7071 6.28899C13.8946 6.47652 14 6.73088 14 6.99609C14 7.26131 13.8946 7.51566 13.7071 7.7032C13.5196 7.89074 13.2652 7.99609 13 7.99609Z"
+                    fill="black" style="fill:black;fill-opacity:1;" />
+                </svg>
+              </div>
+              <img class="minus-sign" src="./assets/images/minus-3108.svg" alt="minus-3108">
             </div>
             <div class="accordion-para pt-4">
               <p class="mb-0 fs-16 line-24 slider helv_font  helv_font  fw-400">Lorem ipsum dolor sit amet consectetur
@@ -1720,12 +1792,15 @@
         <div class="col-md-6 mt_20 pt-64">
           <div class="overflow-hidden cursor  accordian_1  ">
             <div class="d-flex justify-content-between align-items-center">
-              <h5 class="mb-0 fs-16 line-24  Helve_font under_line_1 helv_font slider fw-400">Who can submit?</h5>
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M13 7.99609H8V12.9961C8 13.2613 7.89464 13.5157 7.70711 13.7032C7.51957 13.8907 7.26522 13.9961 7 13.9961C6.73478 13.9961 6.48043 13.8907 6.29289 13.7032C6.10536 13.5157 6 13.2613 6 12.9961V7.99609H1C0.734784 7.99609 0.48043 7.89074 0.292893 7.7032C0.105357 7.51566 0 7.26131 0 6.99609C0 6.73088 0.105357 6.47652 0.292893 6.28899C0.48043 6.10145 0.734784 5.99609 1 5.99609H6V0.996094C6 0.730877 6.10536 0.476523 6.29289 0.288987C6.48043 0.10145 6.73478 -0.00390625 7 -0.00390625C7.26522 -0.00390625 7.51957 0.10145 7.70711 0.288987C7.89464 0.476523 8 0.730877 8 0.996094V5.99609H13C13.2652 5.99609 13.5196 6.10145 13.7071 6.28899C13.8946 6.47652 14 6.73088 14 6.99609C14 7.26131 13.8946 7.51566 13.7071 7.7032C13.5196 7.89074 13.2652 7.99609 13 7.99609Z"
-                  fill="black" style="fill:black;fill-opacity:1;" />
-              </svg>
+              <h5 class="mb-0 fs-16 line-24  Helve_font  helv_font slider fw-400">Who can submit?</h5>
+              <div class="plus-sign">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13 7.99609H8V12.9961C8 13.2613 7.89464 13.5157 7.70711 13.7032C7.51957 13.8907 7.26522 13.9961 7 13.9961C6.73478 13.9961 6.48043 13.8907 6.29289 13.7032C6.10536 13.5157 6 13.2613 6 12.9961V7.99609H1C0.734784 7.99609 0.48043 7.89074 0.292893 7.7032C0.105357 7.51566 0 7.26131 0 6.99609C0 6.73088 0.105357 6.47652 0.292893 6.28899C0.48043 6.10145 0.734784 5.99609 1 5.99609H6V0.996094C6 0.730877 6.10536 0.476523 6.29289 0.288987C6.48043 0.10145 6.73478 -0.00390625 7 -0.00390625C7.26522 -0.00390625 7.51957 0.10145 7.70711 0.288987C7.89464 0.476523 8 0.730877 8 0.996094V5.99609H13C13.2652 5.99609 13.5196 6.10145 13.7071 6.28899C13.8946 6.47652 14 6.73088 14 6.99609C14 7.26131 13.8946 7.51566 13.7071 7.7032C13.5196 7.89074 13.2652 7.99609 13 7.99609Z"
+                    fill="black" style="fill:black;fill-opacity:1;" />
+                </svg>
+              </div>
+              <img class="minus-sign" src="./assets/images/minus-3108.svg" alt="minus-3108">
             </div>
             <div class="accordion-para pt-4">
               <p class="mb-0 fs-16 line-24 slider helv_font   helv_font fw-400">Lorem ipsum dolor sit amet consectetur
@@ -1736,12 +1811,15 @@
           </div>
           <div class="overflow-hidden cursor mt-24-24 accordian_1">
             <div class="d-flex justify-content-between align-items-center">
-              <h5 class="mb-0 fs-16 line-24  Helve_font slider under_line_1 helv_font fw-400">Who can submit?</h5>
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M13 7.99609H8V12.9961C8 13.2613 7.89464 13.5157 7.70711 13.7032C7.51957 13.8907 7.26522 13.9961 7 13.9961C6.73478 13.9961 6.48043 13.8907 6.29289 13.7032C6.10536 13.5157 6 13.2613 6 12.9961V7.99609H1C0.734784 7.99609 0.48043 7.89074 0.292893 7.7032C0.105357 7.51566 0 7.26131 0 6.99609C0 6.73088 0.105357 6.47652 0.292893 6.28899C0.48043 6.10145 0.734784 5.99609 1 5.99609H6V0.996094C6 0.730877 6.10536 0.476523 6.29289 0.288987C6.48043 0.10145 6.73478 -0.00390625 7 -0.00390625C7.26522 -0.00390625 7.51957 0.10145 7.70711 0.288987C7.89464 0.476523 8 0.730877 8 0.996094V5.99609H13C13.2652 5.99609 13.5196 6.10145 13.7071 6.28899C13.8946 6.47652 14 6.73088 14 6.99609C14 7.26131 13.8946 7.51566 13.7071 7.7032C13.5196 7.89074 13.2652 7.99609 13 7.99609Z"
-                  fill="black" style="fill:black;fill-opacity:1;" />
-              </svg>
+              <h5 class="mb-0 fs-16 line-24  Helve_font slider   helv_font fw-400">Who can submit?</h5>
+              <div class="plus-sign">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13 7.99609H8V12.9961C8 13.2613 7.89464 13.5157 7.70711 13.7032C7.51957 13.8907 7.26522 13.9961 7 13.9961C6.73478 13.9961 6.48043 13.8907 6.29289 13.7032C6.10536 13.5157 6 13.2613 6 12.9961V7.99609H1C0.734784 7.99609 0.48043 7.89074 0.292893 7.7032C0.105357 7.51566 0 7.26131 0 6.99609C0 6.73088 0.105357 6.47652 0.292893 6.28899C0.48043 6.10145 0.734784 5.99609 1 5.99609H6V0.996094C6 0.730877 6.10536 0.476523 6.29289 0.288987C6.48043 0.10145 6.73478 -0.00390625 7 -0.00390625C7.26522 -0.00390625 7.51957 0.10145 7.70711 0.288987C7.89464 0.476523 8 0.730877 8 0.996094V5.99609H13C13.2652 5.99609 13.5196 6.10145 13.7071 6.28899C13.8946 6.47652 14 6.73088 14 6.99609C14 7.26131 13.8946 7.51566 13.7071 7.7032C13.5196 7.89074 13.2652 7.99609 13 7.99609Z"
+                    fill="black" style="fill:black;fill-opacity:1;" />
+                </svg>
+              </div>
+              <img class="minus-sign" src="./assets/images/minus-3108.svg" alt="minus-3108">
             </div>
             <div class="accordion-para pt-4">
               <p class="mb-0 fs-16 line-24 slider helv_font  helv_font  fw-400">Lorem ipsum dolor sit amet consectetur
@@ -1752,12 +1830,15 @@
           </div>
           <div class="overflow-hidden cursor  accordian_1">
             <div class="d-flex justify-content-between align-items-center">
-              <h5 class="mb-0 fs-16 line-24  Helve_font slider helv_font under_line_1  fw-400">Who can submit?</h5>
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M13 7.99609H8V12.9961C8 13.2613 7.89464 13.5157 7.70711 13.7032C7.51957 13.8907 7.26522 13.9961 7 13.9961C6.73478 13.9961 6.48043 13.8907 6.29289 13.7032C6.10536 13.5157 6 13.2613 6 12.9961V7.99609H1C0.734784 7.99609 0.48043 7.89074 0.292893 7.7032C0.105357 7.51566 0 7.26131 0 6.99609C0 6.73088 0.105357 6.47652 0.292893 6.28899C0.48043 6.10145 0.734784 5.99609 1 5.99609H6V0.996094C6 0.730877 6.10536 0.476523 6.29289 0.288987C6.48043 0.10145 6.73478 -0.00390625 7 -0.00390625C7.26522 -0.00390625 7.51957 0.10145 7.70711 0.288987C7.89464 0.476523 8 0.730877 8 0.996094V5.99609H13C13.2652 5.99609 13.5196 6.10145 13.7071 6.28899C13.8946 6.47652 14 6.73088 14 6.99609C14 7.26131 13.8946 7.51566 13.7071 7.7032C13.5196 7.89074 13.2652 7.99609 13 7.99609Z"
-                  fill="black" style="fill:black;fill-opacity:1;" />
-              </svg>
+              <h5 class="mb-0 fs-16 line-24  Helve_font slider helv_font   fw-400">Who can submit?</h5>
+              <div class="plus-sign">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13 7.99609H8V12.9961C8 13.2613 7.89464 13.5157 7.70711 13.7032C7.51957 13.8907 7.26522 13.9961 7 13.9961C6.73478 13.9961 6.48043 13.8907 6.29289 13.7032C6.10536 13.5157 6 13.2613 6 12.9961V7.99609H1C0.734784 7.99609 0.48043 7.89074 0.292893 7.7032C0.105357 7.51566 0 7.26131 0 6.99609C0 6.73088 0.105357 6.47652 0.292893 6.28899C0.48043 6.10145 0.734784 5.99609 1 5.99609H6V0.996094C6 0.730877 6.10536 0.476523 6.29289 0.288987C6.48043 0.10145 6.73478 -0.00390625 7 -0.00390625C7.26522 -0.00390625 7.51957 0.10145 7.70711 0.288987C7.89464 0.476523 8 0.730877 8 0.996094V5.99609H13C13.2652 5.99609 13.5196 6.10145 13.7071 6.28899C13.8946 6.47652 14 6.73088 14 6.99609C14 7.26131 13.8946 7.51566 13.7071 7.7032C13.5196 7.89074 13.2652 7.99609 13 7.99609Z"
+                    fill="black" style="fill:black;fill-opacity:1;" />
+                </svg>
+              </div>
+              <img class="minus-sign" src="./assets/images/minus-3108.svg" alt="minus-3108">
             </div>
             <div class="accordion-para pt-4">
               <p class="mb-0 fs-16 line-24 slider helv_font  helv_font  fw-400">Lorem ipsum dolor sit amet consectetur
@@ -1865,21 +1946,23 @@
     <div class="elips_absolute d-none d-lg-block">
       <svg width="391" height="829" viewBox="0 0 391 829" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g opacity="0.5" filter="url(#filter0_f_41260_10498)">
-        <circle cx="-23.5" cy="414.5" r="126.5" fill="url(#paint0_linear_41260_10498)"/>
+          <circle cx="-23.5" cy="414.5" r="126.5" fill="url(#paint0_linear_41260_10498)" />
         </g>
         <defs>
-        <filter id="filter0_f_41260_10498" x="-437.4" y="0.600006" width="827.8" height="827.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-        <feGaussianBlur stdDeviation="143.7" result="effect1_foregroundBlur_41260_10498"/>
-        </filter>
-        <linearGradient id="paint0_linear_41260_10498" x1="-150" y1="288" x2="37.5568" y2="574.517" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#F4EAD8"/>
-        <stop offset="1" stop-color="#E0B764"/>
-        </linearGradient>
+          <filter id="filter0_f_41260_10498" x="-437.4" y="0.600006" width="827.8" height="827.8"
+            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+            <feGaussianBlur stdDeviation="143.7" result="effect1_foregroundBlur_41260_10498" />
+          </filter>
+          <linearGradient id="paint0_linear_41260_10498" x1="-150" y1="288" x2="37.5568" y2="574.517"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F4EAD8" />
+            <stop offset="1" stop-color="#E0B764" />
+          </linearGradient>
         </defs>
-        </svg>
-        
+      </svg>
+
     </div>
   </section>
   <footer class="bg-image_2 d- none overflow-hidden" id="donate">
@@ -1890,28 +1973,30 @@
           <p class="fw-400 pt-15 fs-16 mb-0 helv_font para_3">We are a non-profit dedicated to empowering ambitious
             young people to dive into the the world’s most pressing issues of the past.</p>
         </div>
-        <div class="col-md-6 col-12 pt_10">
-          <h3 class="fw-700 line-27 fs-24 mb-0 helv_font subscribe_1">Subscribe to Our Newsletter</h3>
-          <div class="input_1 cursor mt-22">
-            <input type="email" class="footer fs-16 fw-400 " placeholder="Enter your email..."
-              style=" font-size: 400; font-size: 16px; line-height: 25.6px;  width: 100%; border: 0; background: none;">
-          </div>
-          <div class="mt-22">
-            <button class="d-flex align-items-center btn_2  gap-15">
-              <h3 class="fw-700 fs-20 line-32 mb-0 text-nowrap mb-0  submit_btn">Submit Now</h3>
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M19 12L13 18M19 12L13 6M19 12L5 12" stroke="url(#paint0_linear_41265_2425)" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round" />
-                <defs>
-                  <linearGradient id="paint0_linear_41265_2425" x1="19" y1="6" x2="4.69489" y2="16.925"
-                    gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#F4EAD8" />
-                    <stop offset="1" stop-color="#E0B764" />
-                  </linearGradient>
-                </defs>
-              </svg>
+        <div class="col-md-6 col-12 pt_10 d-flex flex-column">
+          <div class="d-flex flex-column">
+            <h3 class="fw-700 line-27 fs-24 mb-0 helv_font subscribe_1">Subscribe to Our Newsletter</h3>
+            <div class="input_1  cursor mt-22">
+              <input type="email" class="footer fs-16 fw-400 " placeholder="Enter your email..."
+                style=" font-size: 400; font-size: 16px; line-height: 25.6px;  width: 100%; border: 0; background: none;">
+            </div>
+            <div class="mt-22">
+              <button class="d-flex align-items-center btn_2  gap-15">
+                <h3 class="fw-700 fs-20 line-32 mb-0 text-nowrap mb-0  submit_btn">Submit Now</h3>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19 12L13 18M19 12L13 6M19 12L5 12" stroke="url(#paint0_linear_41265_2425)" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                  <defs>
+                    <linearGradient id="paint0_linear_41265_2425" x1="19" y1="6" x2="4.69489" y2="16.925"
+                      gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#F4EAD8" />
+                      <stop offset="1" stop-color="#E0B764" />
+                    </linearGradient>
+                  </defs>
+                </svg>
 
-            </button>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -1932,7 +2017,7 @@
             <li class="pt-10"><a href="" class="fw-400 fs-16 mb-0 footer line-25 helv_font under_line_1">FAQ’s</a></li>
           </ul>
         </div>
-        <div class="col-lg-3 col-md-4 col-6 pt-50">
+        <div class="col-lg-3 col-md-4 d-flex justify-content-lg-center col-6 pt-50">
           <ul class="p-1 mb-0">
             <li><a href="" class="fw-700 fs-16 mb-0 white line-25 helv_font under_line">Organization</a></li>
             <li class=" pt-16"><a href="" class="fw-400 fs-16 mb-0 footer line-25 helv_font under_line_1 ">About Us</a>
@@ -1943,7 +2028,7 @@
 
           </ul>
         </div>
-        <div class="col-lg-3 col-md-4 col-6 pb_20 pt-50">
+        <div class="col-lg-3 col-md-4 d-flex justify-content-lg-center col-6 pb_20 pt-50">
           <ul class="p-1 mb-0">
             <li><a href="" class="fw-700 fs-16 mb-0 white line-25 helv_font under_line">Legal</a></li>
             <li class=" pt-16"><a href="" class="fw-400 fs-16 mb-0 footer line-25 helv_font  under_line_1">Privacy
@@ -1953,7 +2038,7 @@
 
           </ul>
         </div>
-        <div class="col-lg-3 col-md-4 col-6 pb_20 pt-50">
+        <div class="col-lg-3 col-md-4 col-6 pb_20 pt-50 d-flex justify-content-lg-end ">
           <ul class="p-1 mb-0">
             <li><a href="" class="fw-700 fs-16 mb-0 white line-25 helv_font under_line">Follow Us On</a></li>
             <li class="pt-16">
@@ -2004,6 +2089,10 @@
       <h3 class="  pt-14-10"> <a href="" class="fw-400 fs-16 line-25 helv_font footer mb-0">© The Julian Project | EIN:
           93-1909213.</a></h3>
     </div>
+    
+<button onclick="topFunction()" id="myBtn" title="Go to top">
+<img src="./assets/svg/arrow-top.svg" alt="arrow-top"></button>
+
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
