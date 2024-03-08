@@ -15,6 +15,29 @@
 .helv_font {
     font-family: Helvetica;
 }
+.scrolling{
+    padding-bottom: 3px;
+}
+.scrolling::-webkit-scrollbar {
+width: 5px;
+height: 5px;
+  
+}
+.scrolling::-webkit-scrollbar-thumb {
+    background: linear-gradient(#EDD9B1,#E5C37E);
+}
+
+.scrolling_2{
+    padding-bottom: 10px;
+}
+.scrolling_2::-webkit-scrollbar {
+width: 5px;
+height: 5px;
+  
+}
+.scrolling_2::-webkit-scrollbar-thumb {
+    background: linear-gradient(#EDD9B1,#E5C37E);
+}
 
 #myBtn {
     display: none;
@@ -30,11 +53,11 @@
     cursor: pointer;
     padding: 15px;
     border-radius: 50px;
-    /* transition: all 700ms linear; */
+    transition: all 400ms linear;
   } 
   #myBtn:hover{
     background-color: black;
-    box-shadow: 0px 0px 20px 0px #000;
+    box-shadow: 0px 0px 20px 0px #E9CD96;
   }
  
   
@@ -87,6 +110,7 @@
 }
 .bg_color {
     background-image: url(../images/Hero.png);
+    
     background-position: center;
     /* object-fit: cover; */
     background-size: cover;
@@ -263,6 +287,10 @@
 .under_line_1:hover::after {
     width: 100%;
 }
+.pb_ml_0{
+    padding-left: 0;
+    margin-bottom: 0;
+}
 .submit_btn {
     background: linear-gradient(to right, #F0DFBF 55%, #E5C583 100%);
     -webkit-background-clip: text;
@@ -272,32 +300,29 @@
 .btn_1 {
     border-radius: 2px !important;
     padding: 12px 24px;
-    /* transition: all 300ms linear; */
+    transition: all 400ms linear;
     border-top: 1px solid transparent;
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;
-    background: white;
+    background-color: var(--section1);
     border-bottom: 1px solid transparent;
     background-image: linear-gradient(to right, #E8CA8E, #E0B764);
+    /* Adjust colors as needed */
     background-position: 0 100%;
+    background-color: transparent;
     background-size: 100% 1px;
     background-repeat: no-repeat;
-    transition: all 300ms linear !important;
 }
 .btn_1:hover {
     box-shadow: 0px 0px 20px -4px #000000;
     border-radius: 10% !important;
     border-bottom: 1px solid transparent;
-    /* Set the initial border to be transparent */
+    /* background: #000; */
     background-image: linear-gradient(to right, #fff, #FFF);
-    /* Adjust colors as needed */
     background-position: 0 100%;
-    /* Set the gradient to start from the bottom */
     background-size: 100% 1px;
-    /* Set the size of the gradient to cover the entire width and 1px height */
     background-repeat: no-repeat;
-    background: linear-gradient(#100B00, #060400);
-    /* transition: all 300ms linear; */
+   
 }
 .btn_2 {
     border-radius: 2px !important;
@@ -311,6 +336,7 @@
     background-image: linear-gradient(to right, #E8CA8E, #E0B764);
     /* Adjust colors as needed */
     background-position: 0 100%;
+    background-color: transparent;
     background-size: 100% 1px;
     background-repeat: no-repeat;
 }
@@ -642,6 +668,7 @@
 .submit_btn_2 {
     background: linear-gradient(to right, #F0DFBF 55%, #E5C583 100%);
     -webkit-background-clip: text;
+    
     -webkit-text-fill-color: transparent;
 
 }
@@ -1393,7 +1420,7 @@
 }
 
 .tab-2:hover .poli_tical {
-    background: #EFDCB9;
+     background: #EFDCB9;
     background: linear-gradient(to right, #EFDCB9 0%, #E4C17B 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1748,6 +1775,12 @@
 }
 .max_wid_392 {
     max-width: 392px;
+}
+.position_absolute_group{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    z-index: -10;
 }
 @media(min-width:992px) {
     .tracking-item {
@@ -2114,7 +2147,9 @@
     .online_app {
         padding: 20px 0px;
     }
-
+.box_1{
+    padding-top: 5px;
+}
 
     .border_vedio::before {
         content: "";
